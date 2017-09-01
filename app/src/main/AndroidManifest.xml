@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.tourapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:id="@+id/AboutDC"
+            android:name=".AboutDC"
+            android:label="About DC"/>
+        <activity
+            android:id="@+id/Museum"
+            android:name=".Museum"
+            android:label="Museum"/>
+        <activity
+            android:id="@+id/Restaurants"
+            android:name=".Restaurants"
+            android:label="Restaurants"/>
+        <activity
+            android:id="@+id/Parks"
+            android:name=".Parks"
+            android:label="Parks"/>
+        <activity
+            android:id="@+id/Monuments"
+            android:name=".Monuments"
+            android:label="Monuments"/>
+    </application>
+
+</manifest>

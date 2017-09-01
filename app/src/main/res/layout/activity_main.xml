@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.tourapp.MainActivity">
+
+    <!-- About DC Category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_about_dc">
+
+        <TextView
+            android:id="@+id/AboutDC"
+            style="@style/CategoryStyle"
+            android:text="About DC" />
+    </FrameLayout>
+    <!-- Museum Category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_museum">
+
+        <TextView
+            android:id="@+id/Museum"
+            style="@style/CategoryStyle"
+            android:text="Museum" />
+    </FrameLayout>
+
+    <!-- Restaurants Category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_restaurants">
+
+        <TextView
+            android:id="@+id/Restaurants"
+            style="@style/CategoryStyle"
+            android:text="Restaurants" />
+    </FrameLayout>
+
+
+    <!-- Parks Category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_parks">
+
+        <TextView
+            android:id="@+id/Parks"
+            style="@style/CategoryStyle"
+            android:text="Parks" />
+    </FrameLayout>
+
+    <!-- Monuments Category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_monuments">
+
+        <TextView
+            android:id="@+id/Monuments"
+            style="@style/CategoryStyle"
+            android:text="Monuments" />
+    </FrameLayout>
+
+</LinearLayout>
