@@ -14,8 +14,8 @@ import java.util.ArrayList;
  * Created by vearak.thach on 9/8/2017.
  */
 
-public class ItemsAdapter extends ArrayAdapter<ItemPerList> {
-    public ItemsAdapter(Activity context, ArrayList<ItemPerList> itemPerLists) {
+public class ItemPerListAdapter extends ArrayAdapter<ItemPerList> {
+    public ItemPerListAdapter(Activity context, ArrayList<ItemPerList> itemPerLists) {
         // Here, we initialize the ArrayAdapter's internal storage for the context and the list.
         // the second argument is used when the ArrayAdapter is populating a single TextView.
         // Because this is a custom adapter for two TextViews and an ImageView, the adapter is not
@@ -36,6 +36,7 @@ public class ItemsAdapter extends ArrayAdapter<ItemPerList> {
     public View getView(int position, View convertView, ViewGroup parent) {
         // Check if the existing view is being reused, otherwise inflate the view
         View listItemView = convertView;
+
         if(listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
                     R.layout.list_item, parent, false);
@@ -48,19 +49,8 @@ public class ItemsAdapter extends ArrayAdapter<ItemPerList> {
         TextView nameTextView = (TextView) listItemView.findViewById(R.id.item_name);
         // Get the version name from the current AndroidFlavor object and
         // set this text on the name TextView
-        nameTextView.setText(currentItemInfo.getmItemName());
+        nameTextView.setText(currentItemInfo.getItemName());
 
-        // Find the TextView in the list_item.xml layout with the ID item_address_location
-        //TextView numberTextView = (TextView) listItemView.findViewById(R.id.item_address_location);
-        // Get the version number from the current AndroidFlavor object and
-        // set this text on the number TextView
-        //numberTextView.setText(currentItemInfo.getmItemLocation());
-
-        // Find the ImageView in the list_item.xml layout with the ID list_item_icon
-        //ImageView iconView = (ImageView) listItemView.findViewById(R.id.list_item_icon);
-        // Get the image resource ID from the current AndroidFlavor object and
-        // set the image to iconView
-        //iconView.setImageResource(currentAndroidFlavor.getImageResourceId());
 
         // Return the whole list item layout (containing 2 TextViews and an ImageView)
         // so that it can be shown in the ListView

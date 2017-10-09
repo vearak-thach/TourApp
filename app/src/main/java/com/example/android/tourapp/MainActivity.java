@@ -15,18 +15,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Find the View that shows the AboutDC category
-        TextView aboutDc = (TextView) findViewById(R.id.AboutDC);
-
-        //Set a click listener on AboutDC view
-        aboutDc.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent aboutDcIntent = new Intent(MainActivity.this, AboutDC.class);
-                startActivity(aboutDcIntent);
-            }
-        });
-
         //Find the View that shows the Museum category
         TextView museum = (TextView) findViewById(R.id.Museum);
 

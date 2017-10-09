@@ -7,18 +7,15 @@
     <!-- Background color for app -->
     <color name="tan_background">#FFF7DA</color>
 
-    <!-- Background color for the about DC category -->
-    <color name="category_about_dc">#FD8E09</color>
-
     <!-- Background color for the museum category -->
-    <color name="category_museum">#379237</color>
+    <color name="category_museum">#2196F3</color>
 
     <!-- Background color for the restaurants category -->
-    <color name="category_restaurants">#8800A0</color>
+    <color name="category_restaurants">#03A9F4</color>
 
     <!-- Background color for the parks category -->
-    <color name="category_parks">#16AFCA</color>
+    <color name="category_parks">#00BCD4</color>
 
     <!-- Background color for the monuments category -->
-    <color name="category_monuments">#FD8E09</color>
+    <color name="category_monuments">#009688</color>
 </resources>

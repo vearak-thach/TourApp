@@ -16,10 +16,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:id="@+id/AboutDC"
-            android:name=".AboutDC"
-            android:label="About DC" />
-        <activity
             android:id="@+id/Museum"
             android:name=".Museum"
             android:label="Museum" />
@@ -44,37 +40,17 @@
             android:name=".MuseumActivity.GalleryOfArt"
             android:label="National Gallery of Art" />
         <activity
-            android:id="@+id/NationalAfricanAmericanHistory"
-            android:name=".MuseumActivity.AfricanAmericanHistory"
-            android:label="National Museum of African American History and Culture" />
-        <activity
             android:id="@+id/SculptureGarden"
             android:name=".MuseumActivity.SculptureGarden"
             android:label="National Gallery of Art - Sculpture Garden" />
-        <activity
-            android:id="@+id/HolocaustMemorialMuseum"
-            android:name=".MuseumActivity.HolocaustMemorialMuseum"
-            android:label="United States Holocaust Memorial Museum" />
-        <activity
-            android:id="@+id/Newseum"
-            android:name=".MuseumActivity.Newseum"
-            android:label="Newseum" />
         <activity
             android:id="@+id/SmithsonianNationalHistory"
             android:name=".MuseumActivity.SmithsonianNationalHistory"
             android:label="Smithsonian National Museum of National History" />
         <activity
-            android:id="@+id/NationalArchive"
-            android:name=".MuseumActivity.NationalArchive"
-            android:label="The National Archives Museum" />
-        <activity
             android:id="@+id/LeDiplomate"
             android:name=".RestaurantsActivity.LeDiplomate"
             android:label="Le Diplomate" />
-        <activity
-            android:id="@+id/CapitalGrille"
-            android:name=".RestaurantsActivity.CapitalGrille"
-            android:label="Capital Grille" />
         <activity
             android:id="@+id/Sakuramen"
             android:name=".RestaurantsActivity.Sakuramen"
@@ -84,25 +60,9 @@
             android:name=".RestaurantsActivity.TokiUnderground"
             android:label="Toki Underground" />
         <activity
-            android:id="@+id/BusboysAndPoets"
-            android:name=".RestaurantsActivity.BusboysAndPoets"
-            android:label="Busboys and Poets" />
-        <activity
-            android:id="@+id/DistrictTaco"
-            android:name=".RestaurantsActivity.DistrictTaco"
-            android:label="District Taco" />
-        <activity
             android:id="@+id/MiCubanCase"
             android:name=".RestaurantsActivity.MiCubanCase"
             android:label="Mi Cuban Case" />
-        <activity
-            android:id="@+id/AmsterdamFalafelShop"
-            android:name=".RestaurantsActivity.AmsterdamFalafelshop"
-            android:label="Amsterdam FalafelShop" />
-        <activity
-            android:id="@+id/MeridianHillPark"
-            android:name=".ParksActivity.MeridianHillPark"
-            android:label="Meridian Hill Park" />
         <activity
             android:id="@+id/MontroseParks"
             android:name=".ParksActivity.MontroseParks"
@@ -112,25 +72,13 @@
             android:name=".ParksActivity.MitchellPark"
             android:label="Mitchell Park" />
         <activity
-            android:id="@+id/BatteryKemblePark"
-            android:name=".ParksActivity.BatteryKemblePark"
-            android:label="Battery Kemble Park" />
-        <activity
             android:id="@+id/CanalPark"
             android:name=".ParksActivity.CanalPark"
             android:label="Canal Park" />
         <activity
-            android:id="@+id/CrispusAttucksPark"
-            android:name=".ParksActivity.CrispusAttucksPark"
-            android:label="Crispus Attucks Park" />
-        <activity
             android:id="@+id/LincolnPark"
             android:name=".ParksActivity.LincolnPark"
             android:label="Lincoln Park" />
-        <activity
-            android:id="@+id/TurtlePark"
-            android:name=".ParksActivity.TurtlePark"
-            android:label="Turtle Park" />
         <activity
             android:id="@+id/WasingtonMonument"
             android:name=".MonumentsActivity.WashingtonMonument"
@@ -147,22 +95,6 @@
             android:id="@+id/FranklinDelanoRooseveltMemorial"
             android:name=".MonumentsActivity.FranklinDelanoRooseveltMemorial"
             android:label="Franklin Delano Roosevelt Memorial"/>
-        <activity
-            android:id="@+id/KoreanWarVeteransMemorial"
-            android:name=".MonumentsActivity.KoreanWarVeteransMemorial"
-            android:label="Korean War Veterans Memorial"/>
-        <activity
-            android:id="@+id/VietnamVeteransMemorial"
-            android:name=".MonumentsActivity.VietnamVeteransMemorial"
-            android:label="Vietnam Veterans Memorial"/>
-        <activity
-            android:id="@+id/MartinLutherKingJrMemorial"
-            android:name=".MonumentsActivity.MartinLutherKingJrMemorial"
-            android:label="Martin Luther King Jr Memorial"/>
-        <activity
-            android:id="@+id/WorldWarIIMemorial"
-            android:name=".MonumentsActivity.WorldWarIIMemorial"
-            android:label="World War II Memorial"></activity>
     </application>
 
 </manifest>

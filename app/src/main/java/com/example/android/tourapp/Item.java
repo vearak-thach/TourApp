@@ -9,22 +9,30 @@ import static android.os.Build.VERSION_CODES.N;
 public class Item {
 
     //Variable for list of items in Category
-    private String mPlacesToVisit;
-    private int mImageResourceID;
+    private String itemName;
+    private String itemLocation;
+    private String itemDescription;
 
-    //Get places to visit
-    public String getmPlacesToVisit(){
-        return mPlacesToVisit;
-    }
+     public Item(String itemName){
+         this.itemName = itemName;
+     }
 
-    //Get the image view for the item
-    public int getmImageResourceID(){
-        return mImageResourceID;
-    }
+     public Item(String itemName, String itemLocation, String itemDescription){
+         this.itemName = itemName;
+         this.itemLocation = itemLocation;
+         this.itemDescription = itemDescription;
+     }
 
-    @Override
-    public String toString(){
-        return "Places to visit: " + mPlacesToVisit + '\'' + " Image: " + mImageResourceID;
-    }
+     public String getItemName(){
+         return itemName;
+     }
+
+     public String getItemLocation(){
+         return itemLocation;
+     }
+
+     public String getItemDescription(){
+         return itemDescription;
+     }
 
 }

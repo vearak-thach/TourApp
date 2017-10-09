@@ -5,14 +5,14 @@ package com.example.android.tourapp;
  */
 
 public class ItemPerList {
-    private String mItemName;
+    private String itemName;
 
     public  ItemPerList(String itemName){
-        mItemName = itemName;
+        this.itemName = itemName;
     }
 
-    public String getmItemName(){
-        return mItemName;
+    public String getItemName(){
+        return itemName;
     }
 
 }
