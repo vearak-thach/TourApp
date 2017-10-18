@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 
 import com.example.android.tourapp.MuseumActivity.GalleryOfArt;
@@ -13,6 +14,8 @@ import com.example.android.tourapp.MuseumActivity.SculptureGarden;
 import com.example.android.tourapp.MuseumActivity.SmithsonianNationalHistory;
 
 import java.util.ArrayList;
+
+import static android.os.Build.VERSION_CODES.M;
 
 public class Museum extends AppCompatActivity {
 
@@ -40,7 +43,7 @@ public class Museum extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 switch(position)
                 {
-                    case 0: Intent newActivity0 = new Intent(Museum.this, NationalAirSpace.class);
+                    case 0: Intent newActivity0 = new Intent(Museum.this,NationalAirSpace.class);
                         startActivity(newActivity0);
                         break;
                     case 1: Intent newActivity1 = new Intent(Museum.this, GalleryOfArt.class);

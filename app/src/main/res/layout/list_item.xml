@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="horizontal"
+    android:id="@+id/list_item"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <LinearLayout
@@ -23,5 +24,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:text="The National Air and Space Museum has the largest collection of historic aircraft and spacecraft. Established in 1946, it officially opened it's main building on the National Mall in 1976. The National Air and Spce Museum is the center for research into the history and science of aviation."/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"/>
     </LinearLayout>
 </LinearLayout>

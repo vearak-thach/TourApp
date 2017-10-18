@@ -10,6 +10,8 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import static com.example.android.tourapp.R.id.imageView;
+
 /**
  * Created by vearak.thach on 9/8/2017.
  */
@@ -49,7 +51,11 @@ public class ItemPerListAdapter extends ArrayAdapter<ItemPerList> {
         TextView nameTextView = (TextView) listItemView.findViewById(R.id.item_name);
         // Get the version name from the current AndroidFlavor object and
         // set this text on the name TextView
-        nameTextView.setText(currentItemInfo.getItemName());
+        nameTextView.setText(currentItemInfo.getItemText());
+
+        ImageView imageView = (ImageView) listItemView.findViewById(R.id.imageView);
+        imageView.setImageResource(currentItemInfo.getItemImage());
+
 
 
         // Return the whole list item layout (containing 2 TextViews and an ImageView)

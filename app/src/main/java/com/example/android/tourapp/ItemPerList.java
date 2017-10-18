@@ -5,14 +5,18 @@ package com.example.android.tourapp;
  */
 
 public class ItemPerList {
-    private String itemName;
+    private String itemText;
+    private int itemImage;
 
-    public  ItemPerList(String itemName){
-        this.itemName = itemName;
+    public  ItemPerList(String itemText){
+        this.itemText = itemText;
+    }
+    public ItemPerList(int itemImage){this.itemImage = itemImage;}
+
+    public String getItemText(){
+        return itemText;
     }
 
-    public String getItemName(){
-        return itemName;
-    }
 
+    public int getItemImage(){return  itemImage;}
 }

@@ -13,10 +13,6 @@ public class Item {
     private String itemLocation;
     private String itemDescription;
 
-     public Item(String itemName){
-         this.itemName = itemName;
-     }
-
      public Item(String itemName, String itemLocation, String itemDescription){
          this.itemName = itemName;
          this.itemLocation = itemLocation;
