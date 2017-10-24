@@ -10,7 +10,6 @@ import com.example.android.tourapp.R;
 
 import java.util.ArrayList;
 
-import static com.example.android.tourapp.R.id.Museum;
 
 public class GalleryOfArt extends AppCompatActivity {
 

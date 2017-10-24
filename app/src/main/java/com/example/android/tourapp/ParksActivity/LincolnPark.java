@@ -10,7 +10,6 @@ import com.example.android.tourapp.R;
 
 import java.util.ArrayList;
 
-import static android.os.Build.VERSION_CODES.M;
 
 public class LincolnPark extends AppCompatActivity {
 

@@ -49,14 +49,15 @@ public class ItemPerListAdapter extends ArrayAdapter<ItemPerList> {
 
         // Find the TextView in the list_item.xml layout with the ID item_name
         TextView nameTextView = (TextView) listItemView.findViewById(R.id.item_name);
-        // Get the version name from the current AndroidFlavor object and
+        // Get the version name from the current name object and
         // set this text on the name TextView
         nameTextView.setText(currentItemInfo.getItemText());
 
+        //Find the ImageView in the list_item.xml layout with the ID imageView
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.imageView);
+        // Get the version name from the current name object and
+        // set this image
         imageView.setImageResource(currentItemInfo.getItemImage());
-
-
 
         // Return the whole list item layout (containing 2 TextViews and an ImageView)
         // so that it can be shown in the ListView
