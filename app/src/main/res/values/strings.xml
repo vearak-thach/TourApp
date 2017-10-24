@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Tour App</string>
+    <string name="Museum_Category">Museum</string>
+    <string name="Restaurant_Category">Restaurants</string>
+    <string name="Park_Category">Parks</string>
+    <string name="Monument_Category">Monuments</string>
 </resources>

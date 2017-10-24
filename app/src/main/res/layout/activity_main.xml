@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,50 +9,46 @@
     <!-- Museum Category -->
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/category_museum">
+        android:layout_height="wrap_content">
 
         <TextView
             android:id="@+id/Museum"
             style="@style/CategoryStyle"
-            android:text="Museum" />
+            android:text="@string/Museum_Category" />
     </FrameLayout>
 
     <!-- Restaurants Category -->
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/category_restaurants">
+        android:layout_height="wrap_content">
 
         <TextView
             android:id="@+id/Restaurants"
             style="@style/CategoryStyle"
-            android:text="Restaurants" />
+            android:text="@string/Restaurant_Category" />
     </FrameLayout>
 
 
     <!-- Parks Category -->
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/category_parks">
+        android:layout_height="wrap_content">
 
         <TextView
             android:id="@+id/Parks"
             style="@style/CategoryStyle"
-            android:text="Parks" />
+            android:text="@string/Park_Category" />
     </FrameLayout>
 
     <!-- Monuments Category -->
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/category_monuments">
+        android:layout_height="wrap_content">
 
         <TextView
             android:id="@+id/Monuments"
             style="@style/CategoryStyle"
-            android:text="Monuments" />
+            android:text="@string/Monument_Category" />
     </FrameLayout>
 
 </LinearLayout>
