@@ -16,83 +16,63 @@
             </intent-filter>
         </activity>
         <activity
-            android:id="@+id/Museum"
             android:name=".Museum"
             android:label="Museum" />
         <activity
-            android:id="@+id/Restaurants"
             android:name=".Restaurants"
             android:label="Restaurants" />
         <activity
-            android:id="@+id/Parks"
             android:name=".Parks"
             android:label="Parks" />
         <activity
-            android:id="@+id/Monuments"
             android:name=".Monuments"
             android:label="Monuments" />
         <activity
-            android:id="@+id/NationalAirSpace"
             android:name=".MuseumActivity.NationalAirSpace"
             android:label="National Air and Space Museum" />
         <activity
-            android:id="@+id/GalleryOfArt"
             android:name=".MuseumActivity.GalleryOfArt"
             android:label="National Gallery of Art" />
         <activity
-            android:id="@+id/SculptureGarden"
             android:name=".MuseumActivity.SculptureGarden"
             android:label="National Gallery of Art - Sculpture Garden" />
         <activity
-            android:id="@+id/SmithsonianNationalHistory"
             android:name=".MuseumActivity.SmithsonianNationalHistory"
             android:label="Smithsonian National Museum of National History" />
         <activity
-            android:id="@+id/LeDiplomate"
             android:name=".RestaurantsActivity.LeDiplomate"
             android:label="Le Diplomate" />
         <activity
-            android:id="@+id/Sakuramen"
             android:name=".RestaurantsActivity.Sakuramen"
             android:label="Sakuramen" />
         <activity
-            android:id="@+id/TokiUnderground"
             android:name=".RestaurantsActivity.TokiUnderground"
             android:label="Toki Underground" />
         <activity
-            android:id="@+id/MiCubanCase"
             android:name=".RestaurantsActivity.MiCubanCase"
             android:label="Mi Cuban Case" />
         <activity
-            android:id="@+id/MontroseParks"
             android:name=".ParksActivity.MontroseParks"
             android:label="Montrose Parks" />
         <activity
-            android:id="@+id/MitchellPark"
             android:name=".ParksActivity.MitchellPark"
             android:label="Mitchell Park" />
         <activity
-            android:id="@+id/CanalPark"
             android:name=".ParksActivity.CanalPark"
             android:label="Canal Park" />
         <activity
-            android:id="@+id/LincolnPark"
             android:name=".ParksActivity.LincolnPark"
             android:label="Lincoln Park" />
         <activity
-            android:id="@+id/WasingtonMonument"
             android:name=".MonumentsActivity.WashingtonMonument"
             android:label="Washington Monument"/>
         <activity
-            android:id="@+id/LincolnMemorial"
             android:name=".MonumentsActivity.LincolnMemorial"
             android:label="Lincoln Memorial"/>
         <activity
-            android:id="@+id/ThomasJeffersonMemorial"
             android:name=".MonumentsActivity.ThomasJeffersonMemorial"
             android:label="Thomas Jefferson Memorial"/>
         <activity
-            android:id="@+id/FranklinDelanoRooseveltMemorial"
             android:name=".MonumentsActivity.FranklinDelanoRooseveltMemorial"
             android:label="Franklin Delano Roosevelt Memorial"/>
     </application>
