@@ -23,10 +23,10 @@ public class Restaurants extends AppCompatActivity {
 
         //Create an Array of Restaurants
         ArrayList<ItemPerList> restaurantsList = new ArrayList<>();
-        restaurantsList.add(new ItemPerList("Le Diplomate"));
-        restaurantsList.add(new ItemPerList("Sakuramen"));
-        restaurantsList.add(new ItemPerList("Toki Underground"));
-        restaurantsList.add(new ItemPerList("Mi Cuban Case"));
+        restaurantsList.add(new ItemPerList(getString(R.string.Le_Diplomate_Title)));
+        restaurantsList.add(new ItemPerList(getString(R.string.Sakuramen_Title)));
+        restaurantsList.add(new ItemPerList(getString(R.string.Toki_Underground_Title)));
+        restaurantsList.add(new ItemPerList(getString(R.string.Mi_Cuban_Case_Title)));
 
         ItemPerListAdapter itemPerListAdapter = new ItemPerListAdapter(this, restaurantsList);
 
