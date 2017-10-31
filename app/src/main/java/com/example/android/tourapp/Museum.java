@@ -26,10 +26,10 @@ public class Museum extends AppCompatActivity {
 
         //Create an array of Museums
         final ArrayList<ItemPerList> museumList = new ArrayList<>();
-        museumList.add(new ItemPerList("National Air and Space Museum"));
-        museumList.add(new ItemPerList("National Gallery of Art"));
-        museumList.add(new ItemPerList("National Gallery of Art - Sculpture Garden"));
-        museumList.add(new ItemPerList("Smithsonian National Museum of National History"));
+        museumList.add(new ItemPerList(getString(R.string.Air_Space_Title)));
+        museumList.add(new ItemPerList(getString(R.string.NGA_Title)));
+        museumList.add(new ItemPerList(getString(R.string.Sculpture_Garden_Title)));
+        museumList.add(new ItemPerList(getString(R.string.Smithsonian_Title)));
 
         ItemPerListAdapter itemPerListAdapter = new ItemPerListAdapter(this, museumList);
 

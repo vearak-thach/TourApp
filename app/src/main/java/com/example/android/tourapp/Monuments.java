@@ -22,10 +22,10 @@ public class Monuments extends AppCompatActivity {
         setContentView(R.layout.activity_monuments);
 
         ArrayList<ItemPerList> monumentsList = new ArrayList<>();
-        monumentsList.add(new ItemPerList("Washington Monument"));
-        monumentsList.add(new ItemPerList("Lincoln Memorial"));
-        monumentsList.add(new ItemPerList("Thomas Jefferson Memorial"));
-        monumentsList.add(new ItemPerList("Franklin Delano Roosevelt Memorial"));
+        monumentsList.add(new ItemPerList(getString(R.string.Washington_Title)));
+        monumentsList.add(new ItemPerList(getString(R.string.Lincoln_Title)));
+        monumentsList.add(new ItemPerList(getString(R.string.TJ_Title)));
+        monumentsList.add(new ItemPerList(getString(R.string.FDR_Title)));
 
         ItemPerListAdapter itemPerListAdapter = new ItemPerListAdapter(this, monumentsList);
 

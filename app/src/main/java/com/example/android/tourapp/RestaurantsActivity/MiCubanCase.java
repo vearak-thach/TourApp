@@ -18,9 +18,9 @@ public class MiCubanCase extends AppCompatActivity {
         setContentView(R.layout.activity_mi_cuban_case);
 
         ArrayList<ItemPerList> miCubanCase = new ArrayList<>();
-        miCubanCase.add(new ItemPerList("Mi Cuban Case"));
-        miCubanCase.add(new ItemPerList("1424 Park Rd NW, Washington, DC 20010"));
-        miCubanCase.add(new ItemPerList("Cuban Cuisine"));
+        miCubanCase.add(new ItemPerList(getString(R.string.Mi_Cuban_Case_Title)));
+        miCubanCase.add(new ItemPerList(getString(R.string.Mi_Cuban_Case_Location)));
+        miCubanCase.add(new ItemPerList(getString(R.string.Mi_Cuban_Case_Description)));
 
         ItemPerListAdapter itemPerListAdapter = new ItemPerListAdapter(MiCubanCase.this, miCubanCase);
 

@@ -19,10 +19,9 @@ public class NationalAirSpace extends AppCompatActivity {
 
         ArrayList<ItemPerList> nationalAirSpace = new ArrayList<>();
 
-        nationalAirSpace.add(new ItemPerList("National Air and Space Museum"));
-        nationalAirSpace.add(new ItemPerList("600 Independence Ave SW, Washington, DC 20560"));
-        nationalAirSpace.add(new ItemPerList("The National Air and Space Museum has the largest collection of historic aircraft and spacecraft. Established in 1946, it officially opened it's main building on the National Mall in 1976." +
-                "The National Air and Space Museum is the center for research into the history and science of aviation."));
+        nationalAirSpace.add(new ItemPerList(getString(R.string.Air_Space_Title)));
+        nationalAirSpace.add(new ItemPerList(getString(R.string.Air_Space_Location)));
+        nationalAirSpace.add(new ItemPerList(getString(R.string.Air_Space_Description)));
         nationalAirSpace.add(new ItemPerList(R.drawable.airspace));
 
         ItemPerListAdapter itemAdapter = new ItemPerListAdapter(NationalAirSpace.this, nationalAirSpace);

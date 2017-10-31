@@ -18,9 +18,9 @@ public class CanalPark extends AppCompatActivity {
         setContentView(R.layout.activity_canal_park);
 
         ArrayList<ItemPerList> canal = new ArrayList<>();
-        canal.add(new ItemPerList("Canal Park"));
-        canal.add(new ItemPerList("200 M St SE, Washington, DC 20003"));
-        canal.add(new ItemPerList("Once a bus parking lot, this modern park now has interactive fountains, landscaping & a restaurant."));
+        canal.add(new ItemPerList(getString(R.string.Canal_Title)));
+        canal.add(new ItemPerList(getString(R.string.Canal_Location)));
+        canal.add(new ItemPerList(getString(R.string.Canal_Description)));
 
         ItemPerListAdapter itemAdapter = new ItemPerListAdapter(CanalPark.this, canal);
 

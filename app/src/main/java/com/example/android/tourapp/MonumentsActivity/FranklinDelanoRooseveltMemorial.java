@@ -22,10 +22,9 @@ public class FranklinDelanoRooseveltMemorial extends AppCompatActivity {
         setContentView(R.layout.activity_franklin_delano_roosevelt_memorial);
 
         ArrayList<ItemPerList> roosevelt = new ArrayList<>();
-        roosevelt.add(new ItemPerList("Franklin Delano Roosevelt Memorial"));
-        roosevelt.add(new ItemPerList("1850 West Basin Dr SW, Washington, DC 20242"));
-        roosevelt.add(new ItemPerList("The Franklin Delano Roosevelt Memorial is a presidential memorial in Washington D.C., dedicated " +
-                "to the memory of Franklin Delano Roosevelt, the 32nd President of the United States."));
+        roosevelt.add(new ItemPerList(getString(R.string.FDR_Title)));
+        roosevelt.add(new ItemPerList(getString(R.string.FDR_Location)));
+        roosevelt.add(new ItemPerList(getString(R.string.FDR_Description)));
 
         ItemPerListAdapter itemAdapter = new ItemPerListAdapter(FranklinDelanoRooseveltMemorial.this, roosevelt);
 

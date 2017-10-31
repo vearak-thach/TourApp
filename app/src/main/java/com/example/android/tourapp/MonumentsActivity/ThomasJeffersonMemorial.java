@@ -20,10 +20,9 @@ public class ThomasJeffersonMemorial extends AppCompatActivity {
         setContentView(R.layout.activity_thomas_jefferson_memorial);
 
         ArrayList<ItemPerList> jefferson = new ArrayList<>();
-        jefferson.add(new ItemPerList("Thomas Jefferson Memorial"));
-        jefferson.add(new ItemPerList("701 E Basin Dr SW, Washington, DC 20242"));
-        jefferson.add(new ItemPerList("The Jefferson Memorial is a presidential memorial in Washington, D.C., " +
-                "dedicated to Thomas Jefferson, one of the most important of the American Founding Fathers."));
+        jefferson.add(new ItemPerList(getString(R.string.TJ_Title)));
+        jefferson.add(new ItemPerList(getString(R.string.TJ_Location)));
+        jefferson.add(new ItemPerList(getString(R.string.TJ_Description)));
 
         ItemPerListAdapter itemAdapter = new ItemPerListAdapter(ThomasJeffersonMemorial.this, jefferson);
 

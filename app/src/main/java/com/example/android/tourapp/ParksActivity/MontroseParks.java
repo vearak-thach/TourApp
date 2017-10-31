@@ -18,9 +18,9 @@ public class MontroseParks extends AppCompatActivity {
         setContentView(R.layout.activity_montrose_parks);
 
         ArrayList<ItemPerList> montrose = new ArrayList<>();
-        montrose.add(new ItemPerList("Montrose Park"));
-        montrose.add(new ItemPerList("Washington, DC 20007"));
-        montrose.add(new ItemPerList("16 acre park built in 1911."));
+        montrose.add(new ItemPerList(getString(R.string.Montrose_Title)));
+        montrose.add(new ItemPerList(getString(R.string.Montrose_Location)));
+        montrose.add(new ItemPerList(getString(R.string.Montrose_Description)));
 
         ItemPerListAdapter itemAdapter = new ItemPerListAdapter(MontroseParks.this, montrose);
 

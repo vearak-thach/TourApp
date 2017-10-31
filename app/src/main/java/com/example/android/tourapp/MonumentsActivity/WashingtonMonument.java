@@ -20,9 +20,9 @@ public class WashingtonMonument extends AppCompatActivity {
 
         ArrayList<ItemPerList> washingtonMonument = new ArrayList<>();
 
-        washingtonMonument.add(new ItemPerList("Washington Monument"));
-        washingtonMonument.add(new ItemPerList("2 15th St NW, Washington, DC 20024"));
-        washingtonMonument.add(new ItemPerList("This 555-foot marble tower was built in honor of United States' first president, George Washington."));
+        washingtonMonument.add(new ItemPerList(getString(R.string.Washington_Title)));
+        washingtonMonument.add(new ItemPerList(getString(R.string.Washington_Location)));
+        washingtonMonument.add(new ItemPerList(getString(R.string.Washington_Description)));
         washingtonMonument.add(new ItemPerList(R.drawable.washingtonmonument));
         ItemPerListAdapter itemAdapter = new ItemPerListAdapter(WashingtonMonument.this, washingtonMonument);
 

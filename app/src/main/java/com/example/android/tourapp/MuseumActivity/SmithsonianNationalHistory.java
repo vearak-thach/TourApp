@@ -18,10 +18,9 @@ public class SmithsonianNationalHistory extends AppCompatActivity {
         setContentView(R.layout.activity_smithsonian_national_history);
 
         ArrayList<ItemPerList> nationalHistory = new ArrayList<>();
-        nationalHistory.add(new ItemPerList("Smithsonian National Museum of Natural History"));
-        nationalHistory.add(new ItemPerList("10th St. & Constitution Ave. NW, Washington, DC 20560"));
-        nationalHistory.add(new ItemPerList("Located near the National Mall, the National History Museum shows " +
-                "collections contain over 126 million specimens of plants, animals, fossils, minerals, rocks, meteorites, human remains, and human cultural artifacts."));
+        nationalHistory.add(new ItemPerList(getString(R.string.Smithsonian_Title)));
+        nationalHistory.add(new ItemPerList(getString(R.string.Smithsonian_Location)));
+        nationalHistory.add(new ItemPerList(getString(R.string.Smithsonian_Description)));
         ItemPerListAdapter itemAdapter = new ItemPerListAdapter(SmithsonianNationalHistory.this, nationalHistory);
 
         ListView listView = (ListView) findViewById(R.id.list);

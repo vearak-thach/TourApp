@@ -18,9 +18,9 @@ public class Sakuramen extends AppCompatActivity {
         setContentView(R.layout.activity_sakuramen);
 
         ArrayList<ItemPerList> sakuramen = new ArrayList<>();
-        sakuramen.add(new ItemPerList("Sakuramen"));
-        sakuramen.add(new ItemPerList("2441 18th St NW, Washington, DC 20009"));
-        sakuramen.add(new ItemPerList("Japanese cuisine - Ramen Noodles"));
+        sakuramen.add(new ItemPerList(getString(R.string.Sakuramen_Title)));
+        sakuramen.add(new ItemPerList(getString(R.string.Sakuramen_Location)));
+        sakuramen.add(new ItemPerList(getString(R.string.Sakuramen_Description)));
 
         ItemPerListAdapter itemPerListAdapter = new ItemPerListAdapter(Sakuramen.this, sakuramen);
 

@@ -19,9 +19,9 @@ public class LincolnPark extends AppCompatActivity {
         setContentView(R.layout.activity_lincoln_park);
 
         ArrayList<ItemPerList> lincolnPark = new ArrayList<>();
-        lincolnPark.add(new ItemPerList("Lincoln Park"));
-        lincolnPark.add(new ItemPerList("Washington, DC 20003"));
-        lincolnPark.add(new ItemPerList("Lincoln Park is an urban park located in the Capitol Hill neighborhood of Washington, D.C. "));
+        lincolnPark.add(new ItemPerList(getString(R.string.Lincoln_Park_Title)));
+        lincolnPark.add(new ItemPerList(getString(R.string.Lincoln_Park_Location)));
+        lincolnPark.add(new ItemPerList(getString(R.string.Lincoln_Park_Description)));
 
         ItemPerListAdapter itemAdapter = new ItemPerListAdapter(LincolnPark.this, lincolnPark);
 

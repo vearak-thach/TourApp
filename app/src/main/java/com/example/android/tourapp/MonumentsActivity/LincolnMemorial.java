@@ -19,10 +19,9 @@ public class LincolnMemorial extends AppCompatActivity {
         setContentView(R.layout.activity_lincoln_memorial);
 
         ArrayList<ItemPerList> lincolnMemorial = new ArrayList<>();
-        lincolnMemorial.add(new ItemPerList("Lincoln Memorial"));
-        lincolnMemorial.add(new ItemPerList("2 Lincoln Memorial Cir NW, Washington, DC 20037"));
-        lincolnMemorial.add(new ItemPerList("The Lincoln Memorial is an American national monument built to honor " +
-                "the 16th President of the United States, Abraham Lincoln."));
+        lincolnMemorial.add(new ItemPerList(getString(R.string.Lincoln_Title)));
+        lincolnMemorial.add(new ItemPerList(getString(R.string.Lincoln_Location)));
+        lincolnMemorial.add(new ItemPerList(getString(R.string.Lincoln_Description)));
 
         ItemPerListAdapter itemAdapter = new ItemPerListAdapter(LincolnMemorial.this, lincolnMemorial);
 

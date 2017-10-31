@@ -20,10 +20,9 @@ public class GalleryOfArt extends AppCompatActivity {
 
         ArrayList<ItemPerList> galleryOfArt = new ArrayList<>();
 
-        galleryOfArt.add(new ItemPerList("National Gallery of Art"));
-        galleryOfArt.add(new ItemPerList("6th & Constitution Ave NW, Washington, DC 20565"));
-        galleryOfArt.add(new ItemPerList("The National Gallery of Art open to the public contains " +
-                "collection of paintings, drawings, prints, photographs, sculpture, medals, and decorative arts traces the development of Western Art from the Middle Ages to the present"));
+        galleryOfArt.add(new ItemPerList(getString(R.string.NGA_Title)));
+        galleryOfArt.add(new ItemPerList(getString(R.string.NGA_Location)));
+        galleryOfArt.add(new ItemPerList(getString(R.string.NGA_Description)));
 
         ItemPerListAdapter itemAdapter = new ItemPerListAdapter(GalleryOfArt.this, galleryOfArt);
 

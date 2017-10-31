@@ -18,9 +18,9 @@ public class LeDiplomate extends AppCompatActivity {
         setContentView(R.layout.activity_le_diplomate);
 
         ArrayList<ItemPerList> leDiplomate = new ArrayList<>();
-        leDiplomate.add(new ItemPerList("Le Diplomate"));
-        leDiplomate.add(new ItemPerList("1601 14th St NW, Washington, DC 20009"));
-        leDiplomate.add(new ItemPerList("French cuisine"));
+        leDiplomate.add(new ItemPerList(getString(R.string.Le_Diplomate_Title)));
+        leDiplomate.add(new ItemPerList(getString(R.string.Le_Diplomate_Location)));
+        leDiplomate.add(new ItemPerList(getString(R.string.Le_Diplomate_Description)));
 
         ItemPerListAdapter itemPerListAdapter = new ItemPerListAdapter(LeDiplomate.this, leDiplomate);
 

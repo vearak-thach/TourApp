@@ -19,9 +19,9 @@ public class MitchellPark extends AppCompatActivity {
         setContentView(R.layout.activity_mitchell_park);
 
         ArrayList<ItemPerList> mitchell = new ArrayList<>();
-        mitchell.add(new ItemPerList("Mitchell Park"));
-        mitchell.add(new ItemPerList("23rd St NW & S St NW, Washington, DC 20008"));
-        mitchell.add(new ItemPerList("A neighborhood park with a field & court for multiple sports, plus gardens & walking paths."));
+        mitchell.add(new ItemPerList(getString(R.string.Mitchell_Title)));
+        mitchell.add(new ItemPerList(getString(R.string.Mitchell_Location)));
+        mitchell.add(new ItemPerList(getString(R.string.Mitchell_Description)));
 
         ItemPerListAdapter itemAdapter = new ItemPerListAdapter(MitchellPark.this, mitchell);
 

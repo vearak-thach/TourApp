@@ -22,10 +22,10 @@ public class Parks extends AppCompatActivity {
         setContentView(R.layout.activity_parks);
 
         ArrayList<ItemPerList> parksList = new ArrayList<>();
-        parksList.add(new ItemPerList("Montrose Parks"));
-        parksList.add(new ItemPerList("Mitchell Park"));
-        parksList.add(new ItemPerList("Canal Park"));
-        parksList.add(new ItemPerList("Lincoln Park"));
+        parksList.add(new ItemPerList(getString(R.string.Montrose_Title)));
+        parksList.add(new ItemPerList(getString(R.string.Mitchell_Title)));
+        parksList.add(new ItemPerList(getString(R.string.Canal_Title)));
+        parksList.add(new ItemPerList(getString(R.string.Lincoln_Park_Title)));
 
         ItemPerListAdapter itemPerListAdapter = new ItemPerListAdapter(this, parksList);
 

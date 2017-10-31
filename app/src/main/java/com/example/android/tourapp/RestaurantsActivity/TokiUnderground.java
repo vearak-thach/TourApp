@@ -18,9 +18,9 @@ public class TokiUnderground extends AppCompatActivity {
         setContentView(R.layout.activity_toki_underground);
 
         ArrayList<ItemPerList> tokiUnderground = new ArrayList<>();
-        tokiUnderground.add(new ItemPerList("Sakuramen"));
-        tokiUnderground.add(new ItemPerList("2441 18th St NW, Washington, DC 20009"));
-        tokiUnderground.add(new ItemPerList("Japanese cuisine - Ramen Noodles"));
+        tokiUnderground.add(new ItemPerList(getString(R.string.Toki_Underground_Title)));
+        tokiUnderground.add(new ItemPerList(getString(R.string.Toki_Underground_Location)));
+        tokiUnderground.add(new ItemPerList(getString(R.string.Toki_Underground_Description)));
 
         ItemPerListAdapter itemPerListAdapter = new ItemPerListAdapter(TokiUnderground.this, tokiUnderground);
 
